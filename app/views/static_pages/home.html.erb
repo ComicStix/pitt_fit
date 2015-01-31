@@ -1,5 +1,6 @@
 <div class="center jumbotron">
   <h1>Welcome to PittFit</h1>
+  <%= @title %>
 
   <h2>
     Enter text here.
@@ -8,5 +9,5 @@
   <%= link_to "Sign up now!", new_user_registration_path, class: "btn btn-lg btn-primary" %>
 </div>
 
-<%= link_to image_tag("rails.png", alt: "Pitt Fit logo"),
+<%= link_to image_tag("logo_smallest.png", alt: "Pitt Fit logo"),
             'http://rubyonrails.org/' %>
